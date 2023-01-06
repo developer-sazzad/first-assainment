@@ -1,0 +1,226 @@
+/* Google Fonts */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Section Styles */
+
+main > section {
+  max-width: 100%;
+  margin: 120px 200px;
+}
+
+/* Header Section Styles */
+header {
+  height: 100vh;
+  width: 100vw;
+  text-align: right;
+  background-image: url("./images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  overflow: hidden;
+}
+
+.header-content {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.left-content {
+  width: 70%;
+}
+
+.right-content {
+  width: 30%;
+  position: relative;
+  padding-right: 200px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+.header-description {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  padding: 15px 20px;
+  background-color: #f15b22;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.btn-primary a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* My failures of previous year Section Styles*/
+
+.failur-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.failur-item {
+  width: 50%;
+}
+.failur-item .title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #151414;
+  margin-bottom: 25px;
+}
+.failur-item .description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #444343;
+  padding-bottom: 15px;
+}
+.failur-list li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444343;
+  padding-top: 10px;
+}
+.failur-list li > i {
+  padding-right: 20px;
+  color: #16d887;
+}
+
+/* Plan Section Styles */
+.plan {
+  font-weight: 700;
+  font-size: 50px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.plan-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.plan-sub-title {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* Call-now Image */
+.call-now-album {
+  background-image: url("./images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.call-now-content {
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+  padding: 60px;
+}
+.call-item {
+  width: 50%;
+}
+.call-item .title {
+  font-weight: 700;
+  font-size: 40px;
+}
+.call-item button {
+  background-color: #fff;
+  color: #f15b22;
+}
+.call-item button > a {
+  color: #f15b22;
+}
+
+/* Footer Section Design */
+
+footer > section {
+  max-width: 100%;
+  margin: 120px 200px 0;
+  padding: 100px 0;
+  display: flex;
+}
+
+footer > section > div {
+  width: 50%;
+}
+footer {
+  background-color: #151414;
+}
+.future-content {
+  width: 60%;
+  color: #fff;
+  margin-right: 150px;
+}
+.future-content h3 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.future-content h6 {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.future-content p {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 0 20px;
+}
+.future-content img {
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/* Subscribe Design */
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.subscribe-content {
+  width: 40%;
+  margin-left: 100px;
+  margin-right: 70px;
+}
+.subscribe-content input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+.subscribe-content button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.copy-right {
+  text-align: center;
+  padding: 70px 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
